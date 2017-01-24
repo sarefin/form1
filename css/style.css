@@ -1,0 +1,187 @@
+body{
+margin:0;
+padding:0;
+background:#2A87B2;
+background-size: cover;
+height:100vh;
+font-family: 'Roboto', sans-serif;
+}
+*{
+	transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+}
+#container{
+width:1180px;
+margin:0 auto;
+}
+.headding{
+
+}
+.headding h1{
+text-align: center;
+color: #f7f7fb;
+font-size: 30px;
+margin: 0;
+font-weight: 100;
+padding: 23px;
+display: block;
+}
+.headding h1 span{
+color: #fff;
+
+font-weight: 900;
+}
+.text{
+text-align: center;
+}
+.text p{
+font-size: 21px;
+max-width: 73%;
+margin: 0 auto;
+color:#fff;
+}
+.text p span{
+
+font-size: 23px;
+font-weight: 900;
+
+}
+.content{
+
+width: 70%;
+overflow: hidden;
+margin-top: 30px;
+}
+
+.content_left{
+width: 45%;
+float: left;
+height: auto;
+margin-left: 34px;
+box-sizing: border-box;
+
+}
+.content_right{
+width: 45%;
+float: left;
+height: auto;
+margin-left: 84px;}
+.form_logo{
+width: 99%;
+overflow: hidden;
+color: #B2BABB;
+background-color: #fff;
+padding: 14px;
+box-sizing: border-box;
+}
+.logo_text{
+width:50%;
+float:left;
+}
+.logo_text h2{
+	margin:0;
+}
+.logo_text p{
+	margin:0;
+}
+.logo{
+width:50%;
+float:left;
+}
+.logo i {
+	
+	font-size: 66px;
+display: block;
+margin-left: 103px;
+}
+.form{
+width: 99%;
+background: #B2BABB;
+overflow: hidden;
+color: #AFB0C2;
+}
+.information{
+display: block;
+padding: 10px;
+width: 86%;
+margin: 23px 15px 18px;
+text-transform: capitalize;
+margin-bottom: 0px;
+}
+.about{
+   width: 89%;
+font-size: 15px;
+padding: 2px 0px 60px 8px;
+border: 1px solid gray;
+display: block;
+margin: 16px;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 0
+}
+.button{
+padding: 11px;
+margin: 19px 13px;
+width: 93%;
+background-color: #18B9E7;
+color: white;
+text-align: center;
+font-size: 17px;
+border: 1px;
+box-sizing: border-box;
+}
+.button:hover{
+	background: #4790A5;
+border-radius: 5px;
+}
+
+.others{
+width: 70%;
+}
+.others h2{
+text-align: center;
+color:#fff;
+font-weight: 100;
+}
+.others ul{
+margin:0;
+padding:0;
+}
+.others ul li{
+	list-style: none;
+	display:inline-block;
+margin-left: 4px;
+}
+.others ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+
+}
+.facebook{
+padding: 10px 12px;
+color: white;
+background: #4763A4;
+}
+.facebook:hover{
+padding: 15px;
+font-size: 16px;
+}
+.twitter{
+padding: 10px 17px;
+color: white;
+background:#54ABEE;
+}
+.twitter:hover{
+padding: 15px;
+font-size: 16px;
+}
+.google{
+padding: 9px;
+color: white;
+background:#DE4331;
+}
+.google:hover{
+padding: 15px;
+font-size: 16px;
+}
